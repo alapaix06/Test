@@ -32,10 +32,17 @@ class preRegister(unittest.TestCase):
             '/html/body/div[1]/header/div/div[1]/div[2]/div/form/div[3]/div[1]/input')
         insertArticle.send_keys('Apple Watch')
         insertArticle.send_keys(Keys.RETURN)
+        
+        self.assertIn('Succesfull', navDriver.title)
+
+        assert "Not found key in:" not in navDriver.page_source
+
+    def test_completeRegister(self):
+        navDriver = self.navDriver
+        navDriver.get('https://www.google.com')
 
     def tearDown(self):
         self.navDriver.close()
-
 
 if __name__ == '__main__':
     preRegister(unittest.main())
