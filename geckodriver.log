@@ -1,0 +1,61 @@
+1649999379670	geckodriver	INFO	Listening on 127.0.0.1:58555
+1649999379990	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58556" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/jj/l0fvw6k14qq10pytdpbsllbw0000gn/T/rust_mozprofileH9BYwh"
+1649999381497	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/jj/l0fvw6k14qq10pytdpbsllbw0000gn/T/rust_mozprofileH9BYwh/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58556/devtools/browser/41daaf35-a1c1-43c4-b2e6-2e040fe159fd
+1649999384388	Marionette	INFO	Listening on port 58583
+Read port: 58583
+1649999384433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+1649999386783	Marionette	INFO	Stopped listening on port 58583
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649999406919	geckodriver	INFO	Listening on 127.0.0.1:58619
+1649999407438	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58620" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/jj/l0fvw6k14qq10pytdpbsllbw0000gn/T/rust_mozprofilejk0t4Y"
+1649999407980	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/jj/l0fvw6k14qq10pytdpbsllbw0000gn/T/rust_mozprofilejk0t4Y/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58620/devtools/browser/e453e62d-04c0-431a-8d73-ec46ba2a969a
+1649999410036	Marionette	INFO	Listening on port 58635
+Read port: 58635
+1649999410161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+1649999412349	Marionette	INFO	Stopped listening on port 58635
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1649999443366	geckodriver	INFO	Listening on 127.0.0.1:58672
+1649999443441	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58673" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/jj/l0fvw6k14qq10pytdpbsllbw0000gn/T/rust_mozprofileY38DAI"
+1649999444029	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/jj/l0fvw6k14qq10pytdpbsllbw0000gn/T/rust_mozprofileY38DAI/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58673/devtools/browser/141bd4bf-9e2b-4033-af11-f162cbb0635e
+1649999447143	Marionette	INFO	Listening on port 58688
+Read port: 58688
+1649999447280	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+1649999454458	Marionette	INFO	Stopped listening on port 58688
+1649999942439	geckodriver	INFO	Listening on 127.0.0.1:58870
+1649999942938	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58871" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/jj/l0fvw6k14qq10pytdpbsllbw0000gn/T/rust_mozprofileZo2L0F"
+1649999943597	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/jj/l0fvw6k14qq10pytdpbsllbw0000gn/T/rust_mozprofileZo2L0F/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 241"  data: no]
+DevTools listening on ws://localhost:58871/devtools/browser/3a3f4e63-9823-4470-a819-796bc39059da
+1649999945975	Marionette	INFO	Listening on port 58886
+Read port: 58886
+1649999946082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 184: TypeError: this._element is null
+1649999948643	Marionette	INFO	Stopped listening on port 58886
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
