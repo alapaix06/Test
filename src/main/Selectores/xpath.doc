@@ -49,3 +49,5 @@ en vez de decir que es = colocamos una ,
 
 //div[contains(text(),"titulo")]
 Con esto el buscara los elementos que dentro de sus textos tengan la palabra titulo
+
+Dentro de los xpath solo se usan comillas simples
