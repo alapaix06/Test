@@ -44,3 +44,8 @@ y ahi el buscara mediante un texto, hay que indicarle primero de que tipo es
 Cabe mencionar que no tenemos que usar el @ y que buscara un div que contenga dicho texto.
 Teneemos que colocar todo el texto que tiene el elemento.
 
+Si queremos seleccionar un texto que contenga una parte del texto debemos usar la funcion contains(), y 
+en vez de decir que es = colocamos una ,
+
+//div[contains(text(),"titulo")]
+Con esto el buscara los elementos que dentro de sus textos tengan la palabra titulo
