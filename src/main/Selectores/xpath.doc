@@ -1,0 +1,46 @@
+Nota para curso de selenium con python
+
+Selectores
+Podemos usar selectores que tengan clases, ID, el tipo de dato etc.
+
+Para indicar en selectores de CSS que es un id usamos #, para indicar que es clase indicamos con un . y para indicar que es un atributo lo hacemos entre corchete []
+
+Si es un id
+#UserName
+
+Si es una clase
+.btn
+
+Si es un atributo
+[target=“_blank”]
+
+para indicar el tipo
+
+si queremos utilizar en compuesto podemos hacerlo usando el tipo ej
+
+input#Username.btn[type=“text”]
+
+Aqui estamos indicando al selector que es un tipo input, que el id es UserName que la clase es btn y tiene un atributo type
+
+Los Xpath se indican cada elemento, atributo, clase o id por medio de un @, este inicia con doble diagonal y cada atributo estar dentro de los corchetes, primero debemos indicar el tipo que es de html, por ejemplo un div, un p, un a, un button, un input etc.
+
+//input[@id=“q”]
+Aqui estamos indicando que el elemento es un inputo que tiene un id igual a q
+
+Podemos usar la condicion or
+
+//input[@id=”q” or @class=“btn”]
+
+tambien podemos usar la condicion and
+
+Podemos usar la condicion or
+
+//input[@id=”q” and @class=“btn”]
+
+Tambien podemos buscar por medio de textos usando los Xpath, para esto debemos usar la funcion text()=""
+y ahi el buscara mediante un texto, hay que indicarle primero de que tipo es
+
+//div[text()="Mi titulo"]
+Cabe mencionar que no tenemos que usar el @ y que buscara un div que contenga dicho texto.
+Teneemos que colocar todo el texto que tiene el elemento.
+
