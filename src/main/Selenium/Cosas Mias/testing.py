@@ -1,4 +1,3 @@
-from socket import if_nameindex
 from time import time
 import unittest
 from selenium import webdriver

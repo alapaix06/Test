@@ -2,7 +2,6 @@ import unittest
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.by import By 
 
 class  xpath(unittest.TestCase):
     def setUp(self):
